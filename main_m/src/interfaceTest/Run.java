@@ -19,7 +19,20 @@ public class Run  {
     @Test
     public void Exec(){
 //        page.member1.printValue("as");
-        page.member1.foo();
+//        page.member1.foo();
+        SingleTone s = SingleTone.getInstance();
+//        s.print("sdfaf");
+
+
+        Integer i = 6;
+        String st = i.toString();
+
+    }
+
+    public static void main(String[] args) {
+        Integer i = 6;
+        String st = "asdfasdfdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd";
+        System.out.println(st.hashCode());
     }
 
 }
