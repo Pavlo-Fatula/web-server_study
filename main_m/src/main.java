@@ -1,4 +1,4 @@
-import interfaceTest.Giraffe;
+import interfaceTest.Giraffe1;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,7 +11,7 @@ public class main  {
     public static void main(String[] args) {
         Integer i = 6;
 
-        Giraffe gi = new Giraffe(new Giraffe());
+        Giraffe1 gi = new Giraffe1(new Giraffe1());
 
         gi.print();
 
